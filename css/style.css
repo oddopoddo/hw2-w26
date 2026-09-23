@@ -43,7 +43,7 @@ img {
 div {
     min-height: 125px;
     padding: 20px;
-    border: 3px solid
+    border: 3px solid #ffffff;
 }
 
 .introduction {
@@ -56,16 +56,14 @@ div {
     background-color: #ff0000;
     text-align: right;
     margin: 0 0 0 50px;
-    border-top: 2px;
-    border-left: 5px;
+    border-width: 0px 0px 2px 5px;
 }
 
 .blue {
     background-color: #0000ff;
     text-align: left;
     margin: 0 50px 0 0;
-    border-top: 2px;
-    border-right: 5px;
+    border-width: 2px 5px 0px 0px;
 }
 
 .blue h2,
@@ -77,8 +75,7 @@ div {
     background-color: #ffff00;
     text-align: right;
     margin: 0 0 0 50px;
-    border-top: 2px;
-    border-left: 5px;
+    border-width: 0px 0px 2px 5px;
 }
 
 .yellow p {
@@ -86,11 +83,10 @@ div {
 }
 
 .green {
-    background-color: #00EB00;
+    background-color: #008500;
     text-align: left;
     margin: 0 50px 0 0;
-    border-top: 2px;
-    border-right: 5px;
+    border-width: 2px 5px 0px 0px;
 }
 
 footer {
